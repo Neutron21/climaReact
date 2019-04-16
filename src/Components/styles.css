@@ -1,0 +1,26 @@
+.locationlist{
+    margin-left: 7vh;
+    height: 90vh;
+    overflow: auto;
+}
+.forecast-title{
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.date{
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.forecast-title .forecastItem{
+    margin-left: 12%;
+}
+@media (max-width: 64em){
+    .locationlist{
+        /* background-color: green; */
+        height: 30vh;
+        overflow: auto;
+        margin-bottom: 10px;
+    }
+}
